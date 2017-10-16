@@ -7,7 +7,6 @@
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    perspective: 1000px;
 }
 
 .FancyBackground {
@@ -19,13 +18,12 @@
     height: 100vh;
     background-color: rgb(229, 230, 231);
     transform-origin: 0px 0px;
-    transform: rotateZ(-20deg) translateZ(-1px);
+    transform: rotateZ(-20deg);
 }
 
 .Welcome {
     text-align: right;
     margin: 1em;
-    transform: translateZ(-3px);
 }
 
 .Welcome > h1,
