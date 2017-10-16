@@ -8,17 +8,17 @@
     display: inline-block;
 }
 
-.Wow-Rocket > * {
+.Wow-Rocket>* {
     position: absolute;
 }
 
-.Wow-Rocket > .Surface {
+.Wow-Rocket>.Surface {
     bottom: 0px;
     width: 100%;
     height: auto;
 }
 
-.Wow-Rocket > .Rocket {
+.Wow-Rocket>.Rocket {
     top: 0px;
     left: 0;
     right: 0;
@@ -27,81 +27,81 @@
     transform: translate3d(0, 0, 0);
 }
 
-.Wow-Rocket > .Rocket {
-    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both infinite;    
+.Wow-Rocket>.Rocket {
+    animation: shake 1s cubic-bezier(.36, .07, .19, .97) both infinite;
 }
 
-.Wow-Rocket:hover > .Rocket {
-    animation: launch 1s ease-out forwards;    
+.Wow-Rocket:hover>.Rocket {
+    animation: launch 1s ease-in forwards;
 }
 
-.Wow-Rocket > .Particle {
+.Wow-Rocket>.Particle {
     height: 10%;
 }
 
-.Wow-Rocket > .Particle {
-    animation: particles 0.5s ease-out both infinite;   
+.Wow-Rocket>.Particle {
+    animation: particles 0.5s ease-out both infinite;
 }
 
-.Wow-Rocket > .Particle1 {
+.Wow-Rocket>.Particle1 {
     top: 66%;
     left: 50%;
     animation-delay: -500ms !important;
 }
 
-.Wow-Rocket > .Particle2 {
+.Wow-Rocket>.Particle2 {
     top: 67%;
     left: 45%;
     animation-delay: -300ms !important;
 }
 
-.Wow-Rocket > .Particle3 {
+.Wow-Rocket>.Particle3 {
     top: 70%;
     left: 40%;
     animation-delay: -200ms !important;
 }
 
-.Wow-Rocket > .Particle4 {
+.Wow-Rocket>.Particle4 {
     top: 75%;
     left: 60%;
     animation-delay: -500ms !important;
 }
 
-.Wow-Rocket > .Particle5 {
+.Wow-Rocket>.Particle5 {
     top: 76%;
     left: 45%;
     animation-delay: -430ms !important;
 }
 
-.Wow-Rocket > .Particle6 {
+.Wow-Rocket>.Particle6 {
     top: 78%;
     left: 30%;
     animation-delay: -100ms !important;
 }
 
-
-.Wow-Rocket > .Particle7 {
+.Wow-Rocket>.Particle7 {
     top: 80%;
     left: 38%;
     animation-delay: -450ms !important;
 }
 
-
 @keyframes shake {
-    10%, 90% {
-      transform: translate3d(1%, 0.5%, 0);
+    10%,
+    90% {
+        transform: translate3d(1%, 0.5%, 0);
     }
-    
-    20%, 80% {
-      transform: translate3d(-0.5%, 0, 0);
+    20%,
+    80% {
+        transform: translate3d(-0.5%, 0, 0);
     }
-  
-    30%, 50%, 70% {
-      transform: translate3d(0.5%, 0, 0);
+    30%,
+    50%,
+    70% {
+        transform: translate3d(0.5%, 0, 0);
     }
-  
-    40%, 60% {
-      transform: translate3d(-1%, 0, 0);
+    40%,
+    60% {
+        transform: translate3d(-1%, 0, 0);
     }
 }
 
@@ -109,45 +109,35 @@
     0% {
         transform: translate3d(0%, 0%, 0%);
     }
-
-    10%{
-      transform: translate3d(1%, 0%, 0);
+    10% {
+        transform: translate3d(1%, 0%, 0);
     }
-    
     20% {
-      transform: translate3d(-0.5%, -10%, 0);
+        transform: translate3d(-0.5%, -10%, 0);
     }
-  
     30% {
-      transform: translate3d(0.5%, -15%, 0);
+        transform: translate3d(0.5%, -15%, 0);
     }
-  
     40% {
         transform: translate3d(-1%, -20%, 0);
-      }
-
+    }
     50% {
         transform: translate3d(0.5%, -25%, 0);
-      }
-
-    60% {
-      transform: translate3d(-1%, -30%, 0);
     }
-
+    60% {
+        transform: translate3d(-1%, -30%, 0);
+    }
     70% {
         transform: translate3d(0.5%, -35%, 0);
         opacity: 1;
     }
-
     80% {
-      transform: translate3d(-0.5%, -40%, 0);
+        transform: translate3d(-0.5%, -40%, 0);
     }
-
     90% {
-      transform: translate3d(1%, -45%, 0);
-      opacity: 0.5;
+        transform: translate3d(1%, -45%, 0);
+        opacity: 0.5;
     }
-
     100% {
         transform: translate3d(0.5%, -50%, 0);
         opacity: 0;
@@ -159,7 +149,6 @@
         transform: translateY(0em);
         opacity: 1;
     }
-
     100% {
         transform: translateY(2em);
         opacity: 0.1;
