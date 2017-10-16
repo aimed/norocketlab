@@ -11,7 +11,7 @@ cache:
 before_script:
   - yarn
 
-script: npm run build
+script: yarn build
 
 after_success:
   - node_modules/.bin/surge -p ./build/ -d https://norocketlab.surge.sh
