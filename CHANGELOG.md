@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/aimed/norocketlab/compare/v1.0.1...v1.0.2) (2017-10-16)
+
+
+### Bug Fixes
+
+* **WelcomePage:** removes unnecessary styles ([7fbc76b](https://github.com/aimed/norocketlab/commit/7fbc76b))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/aimed/norocketlab/compare/v1.0.0...v1.0.1) (2017-10-16)
 
