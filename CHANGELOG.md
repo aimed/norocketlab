@@ -1,3 +1,14 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/aimed/norocketlab/compare/v1.0.3...v1.0.4) (2017-10-17)
+
+
+### Bug Fixes
+
+* **WelcomePage:** animates particles as well as rocket ([35e57a0](https://github.com/aimed/norocketlab/commit/35e57a0))
+* **WelcomePage:** removes underline from name ([936ea75](https://github.com/aimed/norocketlab/commit/936ea75))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/aimed/norocketlab/compare/v1.0.2...v1.0.3) (2017-10-16)
 
