@@ -19,14 +19,16 @@ export const WowRocket: React.SFC<WowRocketProps> = (props) => {
     return (
         <div className="Wow-Rocket">
             <img className="Surface" src={Surface} />
-            <img className="Rocket" src={Rocket} />
-            <img className="Particle Particle1" src={Particle1} />
-            <img className="Particle Particle2" src={Particle2} />
-            <img className="Particle Particle3" src={Particle3} />
-            <img className="Particle Particle4" src={Particle4} />
-            <img className="Particle Particle5" src={Particle5} />
-            <img className="Particle Particle6" src={Particle6} />
-            <img className="Particle Particle7" src={Particle7} />
+            <div className="Rocket-with-Particles">
+              <img className="Rocket" src={Rocket} />
+              <img className="Particle Particle1" src={Particle1} />
+              <img className="Particle Particle2" src={Particle2} />
+              <img className="Particle Particle3" src={Particle3} />
+              <img className="Particle Particle4" src={Particle4} />
+              <img className="Particle Particle5" src={Particle5} />
+              <img className="Particle Particle6" src={Particle6} />
+              <img className="Particle Particle7" src={Particle7} />
+            </div>
         </div>
     );
 };
