@@ -1,3 +1,13 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/aimed/norocketlab/compare/v1.0.4...v1.0.5) (2017-10-17)
+
+
+### Bug Fixes
+
+* **Rocket:** improves animation ([1576f88](https://github.com/aimed/norocketlab/commit/1576f88))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/aimed/norocketlab/compare/v1.0.3...v1.0.4) (2017-10-17)
 
