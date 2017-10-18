@@ -21,6 +21,11 @@ export class AboutMe extends React.Component<AboutMeProps, {}> {
             Currently working on <b>material flow simulation</b>, <b>decentralized
               control</b> and <b>distributed algorithms</b>.
           </p>
+          <p className="aboutme__links">
+            <span>Get in touch:</span>
+            <a href="https://github.com/aimed">GitHub</a>
+            <a href="mailto:maximilian.taeschner@gmail.com">Email</a>
+          </p>
         </div>
       </section>
     );

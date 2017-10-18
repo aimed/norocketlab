@@ -11,3 +11,13 @@
 .AboutMe .aboutme {
   margin: 1em 2em;
 }
+
+.aboutme__links {
+  font-size: 0.8em;
+}
+
+.aboutme__links > a {
+  text-decoration: none;
+  font-style: normal;
+  margin: auto 0.5em;
+}
