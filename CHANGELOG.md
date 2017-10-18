@@ -1,3 +1,18 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/aimed/norocketlab/compare/v1.1.2...v1.2.0) (2017-10-18)
+
+
+### Bug Fixes
+
+* **cname:** moves file to public folder instead of copying ([e535e47](https://github.com/aimed/norocketlab/commit/e535e47))
+
+
+### Features
+
+* **static:** pre renders html using snapshot rendering ([bff4b90](https://github.com/aimed/norocketlab/commit/bff4b90))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/aimed/norocketlab/compare/v1.1.1...v1.1.2) (2017-10-18)
 
