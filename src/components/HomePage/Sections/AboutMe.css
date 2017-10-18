@@ -1,0 +1,13 @@
+.AboutMe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10em 0;
+}
+
+.AboutMe .aboutme {
+  margin: 1em 2em;
+}

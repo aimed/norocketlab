@@ -1,0 +1,15 @@
+.arrow-container {
+  position: relative;
+}
+
+.arrow-container > .arrow {
+  position: absolute;
+  bottom: 100%;
+}
+
+.arrow.arrow-align-out-right {
+  left: 100%;
+}
+.arrow.arrow-align-out-middle {
+  margin-left: 50%;
+}

@@ -1,0 +1,15 @@
+.SplashRocket {
+  background: linear-gradient(180deg, #292A2C 0%, #1A1B1D 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+}
+
+.SplashRocket > .Rocket-Container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
