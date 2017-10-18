@@ -2,21 +2,41 @@ import './Projects.css';
 
 import * as React from 'react';
 
-import { Project } from './Project';
+import { Project, ProjectInfo } from './Project';
+
+const projects: ProjectInfo[] = [
+  {
+    name: 'Friendom',
+    description: 'A random friends episode picker.',
+    website: 'https://friendom.surge.sh',
+    iconUrl: require('./icons/FriendomIcon.svg')
+  },
+  {
+    name: 'Ampz',
+    description: '8tracks.com client for OSX',
+    iconUrl: require('./icons/AmpzIcon.svg'),
+    website: 'https://github.com/aimed/ampz',
+    downloadLink: 'https://github.com/aimed/ampz/raw/master/website/public/download/Ampz.zip'
+  }
+];
+
+interface ProjectsState {
+}
 
 export interface ProjectsProps {
 }
 
-export class Projects extends React.Component<ProjectsProps, {}> {
+export class Projects extends React.Component<ProjectsProps, ProjectsState> {
+
   render() {
     return (
       <div className="projects">
-        <Project
-          name="Friendom"
-          description="A random friends episode picker."
-          projectUrl="https://friendom.surge.sh"
-          iconUrl={require('./icons/FriendomIcon.svg')}
-        />
+        {projects.map(project =>
+          <Project
+            key={project.name}
+            project={project}
+          />
+        )}
       </div>
     );
   }

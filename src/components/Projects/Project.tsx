@@ -1,25 +1,32 @@
 import * as React from 'react';
 
-export interface ProjectProps {
+export interface ProjectInfo {
   name: string;
-  projectUrl: string;
+  website?: string;
   description: string;
   iconUrl: string;
+  downloadLink?: string;
+}
+
+export interface ProjectProps {
+  project: ProjectInfo;
+  className?: string;
 }
 
 export class Project extends React.Component<ProjectProps, {}> {
   render() {
-    const { name, projectUrl, description, iconUrl } = this.props;
+    const { name, website, description, iconUrl, downloadLink } = this.props.project;
     return (
-      <div className="project">
+      <div className={'project' + (this.props.className ? ' ' + this.props.className : '')}>
         <div className="project__header">
           <div className="project__icon"><img src={iconUrl} alt={name} width="84" height="84" /></div>
         </div>
         <div className="project__data">
           <h3 className="project__title">{name}</h3>
           <p className="project__description">{description}</p>
-          <small className="project__website">
-            <a href={projectUrl} target="_blank" rel="noopener">{projectUrl}</a>
+          <small className="project__links">
+            {website && <a href={website} target="_blank" rel="noopener">{website}</a>}
+            {downloadLink && null}
           </small>
         </div>
       </div>
