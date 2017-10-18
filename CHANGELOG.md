@@ -1,3 +1,14 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/aimed/norocketlab/compare/v1.2.2...v1.3.0) (2017-10-18)
+
+
+### Features
+
+* **projects:** adds ampz as a project ([143a529](https://github.com/aimed/norocketlab/commit/143a529))
+* **projects:** adds insightful texts to projects ([745d96c](https://github.com/aimed/norocketlab/commit/745d96c))
+
+
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/aimed/norocketlab/compare/v1.2.1...v1.2.2) (2017-10-18)
 
