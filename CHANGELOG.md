@@ -1,3 +1,13 @@
+<a name="1.2.2"></a>
+## [1.2.2](https://github.com/aimed/norocketlab/compare/v1.2.1...v1.2.2) (2017-10-18)
+
+
+### Bug Fixes
+
+* **about-me:** adds get in touch and links ([98b60fe](https://github.com/aimed/norocketlab/commit/98b60fe))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/aimed/norocketlab/compare/v1.2.0...v1.2.1) (2017-10-18)
 
