@@ -6,6 +6,7 @@ export interface ProjectInfo {
   description: string;
   iconUrl: string;
   downloadLink?: string;
+  insight?: string;
 }
 
 export interface ProjectProps {
@@ -15,7 +16,7 @@ export interface ProjectProps {
 
 export class Project extends React.Component<ProjectProps, {}> {
   render() {
-    const { name, website, description, iconUrl, downloadLink } = this.props.project;
+    const { name, website, description, iconUrl, downloadLink, insight } = this.props.project;
     return (
       <div className={'project' + (this.props.className ? ' ' + this.props.className : '')}>
         <div className="project__header">
@@ -24,10 +25,11 @@ export class Project extends React.Component<ProjectProps, {}> {
         <div className="project__data">
           <h3 className="project__title">{name}</h3>
           <p className="project__description">{description}</p>
-          <small className="project__links">
-            {website && <a href={website} target="_blank" rel="noopener">{website}</a>}
-            {downloadLink && null}
-          </small>
+          {insight && <p className="project__insight">{insight}</p>}
+        </div>
+        <div className="project__links">
+          {website && <a href={website} target="_blank" rel="noopener">{website}</a>}
+          {downloadLink && null}
         </div>
       </div>
     );
