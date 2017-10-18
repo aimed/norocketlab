@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/aimed/norocketlab/compare/v1.1.0...v1.1.1) (2017-10-18)
+
+
+### Bug Fixes
+
+* **project:** fixes missing rel tag for links ([658ff2e](https://github.com/aimed/norocketlab/commit/658ff2e))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/aimed/norocketlab/compare/v1.0.5...v1.1.0) (2017-10-18)
 
