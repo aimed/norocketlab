@@ -18,7 +18,9 @@ export class Project extends React.Component<ProjectProps, {}> {
         <div className="project__data">
           <h3 className="project__title">{name}</h3>
           <p className="project__description">{description}</p>
-          <small className="project__website"><a href={projectUrl} target="_blank">{projectUrl}</a></small>
+          <small className="project__website">
+            <a href={projectUrl} target="_blank" rel="noopener">{projectUrl}</a>
+          </small>
         </div>
       </div>
     );
