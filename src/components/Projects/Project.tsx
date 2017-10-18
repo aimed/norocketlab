@@ -13,7 +13,7 @@ export class Project extends React.Component<ProjectProps, {}> {
     return (
       <div className="project">
         <div className="project__header">
-          <div className="project__icon"><img src={iconUrl} alt={name} /></div>
+          <div className="project__icon"><img src={iconUrl} alt={name} width="84" height="84" /></div>
         </div>
         <div className="project__data">
           <h3 className="project__title">{name}</h3>
