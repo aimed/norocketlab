@@ -16,4 +16,5 @@ script: yarn build
 after_success:
   - cp ./CNAME ./build/CNAME
   - node_modules/.bin/surge -p ./build/ -d https://norocketlab.surge.sh
+  - node_modules/.bin/surge -p ./build/ -d https://norocketlab.net
 
