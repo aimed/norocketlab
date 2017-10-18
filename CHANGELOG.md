@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/aimed/norocketlab/compare/v1.2.0...v1.2.1) (2017-10-18)
+
+
+### Bug Fixes
+
+* **responsive:** removes non responsive sizes from most svgs ([f729c78](https://github.com/aimed/norocketlab/commit/f729c78))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/aimed/norocketlab/compare/v1.1.2...v1.2.0) (2017-10-18)
 
