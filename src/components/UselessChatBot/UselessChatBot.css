@@ -1,0 +1,65 @@
+.useless-chat-bot {
+  background: #FFFFFF;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+.useless-chat-bot .chat {
+  overflow-y: scroll;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  min-height: 8ch;
+  max-height: 50ch;
+}
+
+.useless-chat-bot .chat-item {
+  display: inline-block;
+  max-width: 80%;
+  padding: 0.5em;
+  margin: 1px 0;
+}
+
+.chat-item.sender-bot {
+  background-color: #dbdbdb;
+  align-self: flex-start;
+  border-radius: 0 10px 10px 10px;
+}
+
+.chat-item.sender-user {
+  background-color: #f8f8f8;
+  align-self: flex-end;
+  border-radius: 10px 0 10px 10px;
+}
+
+.chat-item.sender-bot + .chat-item.sender-user,
+.chat-item.sender-user + .chat-item.sender-bot {
+  margin-top: 5px !important;
+}
+
+.useless-chat-bot .chat-input {
+  background-color: #f8f8f8;
+}
+
+.useless-chat-bot .chat-input input {
+  width: 100%;
+  font-size: inherit;
+  border: 0;
+  border-top: 1px solid transparent;
+  border-radius: 0 0 5px 5px;
+  text-align: right;
+  box-sizing: border-box;
+  background-color: inherit;
+  padding: 1em 0.5em;
+  outline: none;
+  transition: border-top 200ms ease-in;
+}
+
+.useless-chat-bot .chat-input input:focus {
+  border-top: 1px solid darkorange;
+}
+

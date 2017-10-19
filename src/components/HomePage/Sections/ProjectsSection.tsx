@@ -9,10 +9,10 @@ export interface ProjectsSectionProps {
 export class ProjectsSection extends React.Component<ProjectsSectionProps, {}> {
   render() {
     return (
-      <div className="projects-section arrow-container">
+      <section className="projects-section arrow-container">
         <Arrow arrow={require('./ArrowNotMax.svg')} />
         <Projects />
-      </div>
+      </section>
     );
   }
 }

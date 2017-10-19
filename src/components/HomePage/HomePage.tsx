@@ -5,6 +5,7 @@ import * as React from 'react';
 import { AboutMe } from './Sections/AboutMe';
 import { ProjectsSection } from './Sections/ProjectsSection';
 import { SplashRocket } from './Sections/SplashRocket';
+import { UselessChatBotSection } from './Sections/UselessChatBotSection';
 
 export interface HomePageProps {
 }
@@ -16,6 +17,7 @@ export class HomePage extends React.Component<HomePageProps, {}> {
         <SplashRocket />
         <AboutMe />
         <ProjectsSection />
+        <UselessChatBotSection />
       </div>
     );
   }
