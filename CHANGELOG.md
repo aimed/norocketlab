@@ -1,3 +1,13 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/aimed/norocketlab/compare/v1.3.0...v1.4.0) (2017-10-19)
+
+
+### Features
+
+* **useless-chat-bot:** adds the really useless chat bot ([f67e3cc](https://github.com/aimed/norocketlab/commit/f67e3cc))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/aimed/norocketlab/compare/v1.2.2...v1.3.0) (2017-10-18)
 
