@@ -1,3 +1,13 @@
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/aimed/norocketlab/compare/v1.4.0...v1.4.1) (2017-10-19)
+
+
+### Bug Fixes
+
+* **HomePage:** removes chat again ([2ef7160](https://github.com/aimed/norocketlab/commit/2ef7160))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/aimed/norocketlab/compare/v1.3.0...v1.4.0) (2017-10-19)
 
