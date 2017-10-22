@@ -19,6 +19,13 @@ const projects: ProjectInfo[] = [
     iconUrl: require('./icons/AmpzIcon.svg'),
     website: 'https://github.com/aimed/ampz',
     downloadLink: 'https://github.com/aimed/ampz/raw/master/website/public/download/Ampz.zip'
+  },
+  {
+    name: 'Foxxy',
+    description: 'Really foxy random movie picker.',
+    insight: 'The foxiness is real..',
+    iconUrl: require('./icons/FoxxyIcon.svg'),
+    website: 'https://foxxy.surge.sh'
   }
 ];
 
