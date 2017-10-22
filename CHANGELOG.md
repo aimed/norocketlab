@@ -1,3 +1,18 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/aimed/norocketlab/compare/v1.4.1...v1.5.0) (2017-10-22)
+
+
+### Bug Fixes
+
+* **projects:** fixes layout bug that caused margin ([4d59a86](https://github.com/aimed/norocketlab/commit/4d59a86))
+
+
+### Features
+
+* **projects:** adds foxxy as a proejct ([b7ddc49](https://github.com/aimed/norocketlab/commit/b7ddc49))
+
+
+
 <a name="1.4.1"></a>
 ## [1.4.1](https://github.com/aimed/norocketlab/compare/v1.4.0...v1.4.1) (2017-10-19)
 
