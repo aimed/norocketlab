@@ -1,6 +1,6 @@
 {
   "name": "norocketlab",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "private": true,
   "dependencies": {
     "@types/react-router": "^4.0.15",

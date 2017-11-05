@@ -1,3 +1,13 @@
+<a name="1.6.1"></a>
+## [1.6.1](https://github.com/aimed/norocketlab/compare/v1.6.0...v1.6.1) (2017-11-05)
+
+
+### Bug Fixes
+
+* **WowRocket:** improves performance using requestAnimationFrame ([21c233e](https://github.com/aimed/norocketlab/commit/21c233e))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/aimed/norocketlab/compare/v1.5.0...v1.6.0) (2017-11-05)
 
