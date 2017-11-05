@@ -1,3 +1,13 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/aimed/norocketlab/compare/v1.5.0...v1.6.0) (2017-11-05)
+
+
+### Features
+
+* **WowRocket:** animates on scroll ([e394ff2](https://github.com/aimed/norocketlab/commit/e394ff2))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/aimed/norocketlab/compare/v1.4.1...v1.5.0) (2017-10-22)
 
