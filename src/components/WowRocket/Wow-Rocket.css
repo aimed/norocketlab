@@ -39,15 +39,6 @@
     width: 100%;
 }
 
-.Wow-Rocket:hover .Rocket-with-Particles {
-    animation: launch 2s ease-in forwards;
-}
-
-.Wow-Rocket:hover .Surface {
-  animation-delay: 100ms !important;
-    animation: move-to-distance 2s ease-out forwards;
-}
-
 .Wow-Rocket .Particle {
     height: 10%;
 }
