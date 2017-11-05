@@ -12,44 +12,40 @@ const Particle5 = require('./Particle5.svg');
 const Particle6 = require('./Particle6.svg');
 const Particle7 = require('./Particle7.svg');
 
-interface WowRocketState {
-  scrollY: number;
-}
-export interface WowRocketProps {
-}
+export interface WowRocketState {}
+export interface WowRocketProps {}
 
 export class WowRocket extends React.Component<WowRocketProps, WowRocketState> {
-  state = {
-    scrollY: window.scrollY
-  };
+  rocket: HTMLDivElement | null = null;
+  surface: HTMLImageElement | null = null;
+  animation: number | null = null;
+  lastScroll: number = window.scrollY;
 
   componentWillMount() {
-    document.addEventListener('scroll', this.onScroll, false);
+    this.animation = window.requestAnimationFrame(this.onScroll);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('scroll', this.onScroll);
-  }
-
-  onScroll = (event: UIEvent) => {
-    if (window.scrollY < screen.availHeight) {
-      this.setState({ scrollY: window.scrollY });
+    if (this.animation !== null) {
+      window.cancelAnimationFrame(this.animation);
     }
   }
 
+  onScroll = () => {
+    if (window.scrollY < screen.availHeight && window.scrollY !== this.lastScroll) {
+        if (this.rocket && this.surface) {
+          this.rocket.style.transform = `translateY(-${window.scrollY}px)`;
+          this.surface.style.transform = `scale(${Math.max(1 - (window.scrollY / screen.availHeight ), 0.2)})`;
+        }
+    }
+    this.animation = window.requestAnimationFrame(this.onScroll);
+  }
+
   render() {
-    const rocketStyle: React.CSSProperties = {
-      transform: `translateY(-${this.state.scrollY}px)`
-    };
-
-    const surfaceStyle: React.CSSProperties = {
-      transform: `scale(${Math.max(1 - (this.state.scrollY / screen.availHeight ), 0.2)})`
-    };
-
     return (
       <div className="Wow-Rocket">
-        <img className="Surface" src={Surface} style={surfaceStyle} />
-        <div className="Rocket-with-Particles" style={rocketStyle}>
+        <img className="Surface" src={Surface} ref={s => this.surface = s} />
+        <div className="Rocket-with-Particles" ref={r => this.rocket = r}>
           <img className="Rocket" src={Rocket} />
           <img className="Particle Particle1" src={Particle1} />
           <img className="Particle Particle2" src={Particle2} />
