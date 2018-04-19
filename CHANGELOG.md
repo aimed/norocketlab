@@ -1,3 +1,13 @@
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/aimed/norocketlab/compare/v1.6.1...v1.7.0) (2018-04-19)
+
+
+### Features
+
+* adds the for-hire banner ([1a490fc](https://github.com/aimed/norocketlab/commit/1a490fc))
+
+
+
 <a name="1.6.1"></a>
 ## [1.6.1](https://github.com/aimed/norocketlab/compare/v1.6.0...v1.6.1) (2017-11-05)
 
